@@ -12,5 +12,17 @@ so as long as the page isn't closed it will be available.
 
 
 ### Here is a screenshot of the page:
+<img
+  src="Assets/Images/Screen Shot 2022-11-20 at 10.47.38 PM.png"
+  alt="screenshot of project"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
+<img
+  src="Assets/Images/Screen Shot 2022-11-20 at 10.47.42 PM.png
+  alt="screenshot of project"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
+ ### License
+ Standard MIT License which can be found in repo.                                                  
