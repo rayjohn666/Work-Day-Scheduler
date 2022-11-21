@@ -9,6 +9,7 @@ Each event typed in the hour or section that has been filled out can be saved by
 so as long as the page isn't closed it will be available.
 
 ### Link to page URL:
+https://rayjohn666.github.io/Work-Day-Scheduler/
 
 
 ### Here is a screenshot of the page:
