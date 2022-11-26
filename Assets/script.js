@@ -1,4 +1,11 @@
 
+function refreshTime() {
+  const timeDisplay = document.getElementById("time");
+  const dateString = new Date().toLocaleString();
+  const formattedString = dateString.replace(", ", " - ");
+  timeDisplay.textContent = formattedString;
+}
+setInterval(refreshTime, 1000);
 // $(".saveBtn").on("click", function (event) {
 //   var calendarItem =
 //     event.target.parentElement.previousElementSibling.children[0].value;
@@ -183,11 +190,3 @@ planner.addEventListener("submit"), function(event) {
 //   ("");
 // }
 
-
-function refreshTime() {
-  const timeDisplay = document.getElementById("time");
-  const dateString = new Date().toLocaleString();
-  const formattedString = dateString.replace(", ", " - ");
-  timeDisplay.textContent = formattedString;
-}
-setInterval(refreshTime, 1000);
